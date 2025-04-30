@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Registration - E-Salon Booking</title>
+  <link rel="stylesheet" href="/css/client-register.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-Salon Booking</div>
+    <nav>
+      <a href="#">Home</a>
+      
+      <!-- Register Dropdown -->
+      <div class="dropdown">
+        <button class="dropbtn" style="background-color: rgb(255, 166, 0);" >Register</button>
+        <div class="dropdown-content">
+          <a href="client-register.html">Client Registration</a>
+          <a href="#">Agent Registration</a>
+        </div>
+      </div>
+
+      <a href="booking.html">Booking</a>
+      <!-- <a href="#">Agent</a> -->
+    </nav>
+  </header>
+
+  <div class="register-container">
+    <h2>Client Registration</h2>
+    <form class="register-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="text" placeholder="Location" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p class="login-link">Already have an account? <a href="#">Login</a></p>
+  </div>
+
+</body>
+</html>
